@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: products
+  cloud:
+    consul:
+      discovery:
+        register-health-check: false
+      port: 8500
+      host: 127.0.0.1
+
